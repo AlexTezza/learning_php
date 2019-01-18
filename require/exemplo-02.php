@@ -4,7 +4,7 @@
 // Caso contrário será lançada uma exceção.
 require "req/exemplo-01.php";
 
-// Para evitar o require de arquivos repetidas vezes e causar o lançamento de exceções
+// Para evitar arquivos repetidos e não lançar exceções
 // existe o require_once. ex:
 //  require_once "req/exemplo-01.php";
 //  require_once "req/exemplo-01.php";
